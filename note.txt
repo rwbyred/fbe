@@ -1,0 +1,53 @@
+https://realpython.com/blog/python/flask-by-example-part-1-project-setup/
+
+https://github.com/realpython/flask-by-example
+
+git remote add pro git@heroku.com:wc-production.git
+git remote add stage git@heroku.com:wc-dev.git
+
+git push stage master
+git push pro master
+
+ssh-keygen -t rsa -b 4096 -C "janejayne7@gmail.com"
+
+
+gpg --list-keys
+gpg --armor --export 7CED2AFF
+
+https://devcenter.heroku.com/articles/git
+
+https://git.heroku.com/stark-brushlands-60739.git
+git remote -v
+
+heroku git:remote -a
+
+http://readwrite.com/2013/10/02/github-for-beginners-part-2/
+git remote -v
+git push
+git push origin master
+git push dev master
+git push fbe master
+git push origin fbe
+
+https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
+git remote
+git remote show origin
+
+git remote rename origin fbe
+git push fbe master
+git push fbe fbe
+
+git fetch fbe dev
+git push
+git push fbe dev
+git push --set-upstream fbe dev
+
+
+echo "source `which activate.sh`" >> ~/.bashrc
+source ~/.bashrc
+
+export USER='zero'
+export DB='flask_test'
+createdb -U $USER --locale=en_US.utf-8 -E utf-8 -O $USER $DB -T template0
+
+export DATABASE_URL="postgresql://localhost/fbe_wc"
